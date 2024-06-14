@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: math;
+}
+
+.home_container {
+    gap: 30px;
+}
+
+
+.home_header {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: rgba(219, 219, 58, 0.798);
+    color: rgba(80, 78, 78, 0.927);
+    padding: 45px 0 0px 150px;
+}
+
+.home_icon {
+    height: 30px;
+    width: 30px;
+}
+
+.home_heading {
+    height: 30px;
+}
+
+.home_login {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+    width: 1080px;
+    box-shadow: 0 0 4px rgba(143, 140, 140, 0.794);
+    border-radius: 4px;
+}
+
+.right_container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 13px;
+}
+.right_login_form{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 300px;
+    border: 1px solid rgba(159, 159, 159, 0.681);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+
+}
+
+.home_login_form {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login_inputbox{
+    padding-top: 50px;
+    height: 35px;
+    width: 270px;
+    padding: 0 0 0 3px;
+    border: 1px solid rgba(147, 144, 144, 0.681);
+    border-radius: 4px;
+}
+
+.account_help_login{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* remove arrow from input number  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.account_help_register{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+}
